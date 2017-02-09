@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("EPiServer.OicExample")]
+[assembly: AssemblyTitle("alloy")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("EPiServer.OicExample")]
+[assembly: AssemblyProduct("alloy")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("af0ade01-2715-4dc3-bb13-2c36b6e44669")]
+[assembly: Guid("3c97769f-3361-4c8f-b088-1a8c0cf8431b")]
 
 // Version information for an assembly consists of the following four values:
 //
