@@ -34,8 +34,8 @@ namespace IdentityServer.SelfHosted.Config
                 new InMemoryUser
                 {
                     Subject = "903306c0-45ad-4ed5-904f-8f6c8c95fcf1",
-                    Username = "user",
-                    Password = "user",
+                    Username = "editor",
+                    Password = "editor",
                     Claims = new[]
                     {
                         new Claim(Constants.ClaimTypes.Name, "Carrie Fisher"),

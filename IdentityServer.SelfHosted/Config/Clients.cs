@@ -28,20 +28,22 @@ namespace IdentityServer.SelfHosted.Config
                     AllowedScopes = new List<string>
                     {
                         Constants.StandardScopes.OpenId,
-                        "epi_scope"
+                        Constants.StandardScopes.Email,
+                        Constants.StandardScopes.Profile,
+                        Constants.StandardScopes.Roles
                     },
                     ClientUri = "https://johanbostrom.se",
                     RequireConsent = false,
-                    AccessTokenType = AccessTokenType.Reference,
                     RedirectUris = new List<string>
                     {
-                        "http://localhost:44300/"
+                        "http://localhost:64286/",
+                        "http://localhost:64286/episerver",
+                        "http://localhost:64286/login"
                     },
                     PostLogoutRedirectUris = new List<string>
                     {
-                        "https://localhost:44300/"
+                        "http://localhost:64286/"
                     },
-                    LogoutUri = "https://localhost:44300/Home/OidcSignOut",
                     LogoutSessionRequired = true
                 }
             };
